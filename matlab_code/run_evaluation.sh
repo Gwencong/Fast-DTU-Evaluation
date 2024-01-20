@@ -1,0 +1,1 @@
+matlab -nosplash -noFigureWindows -r "run('BaseEvalMain_web.m');run('ComputeStat_web.m');exit"

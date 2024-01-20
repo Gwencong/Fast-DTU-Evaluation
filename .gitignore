@@ -1,0 +1,7 @@
+__pycache__
+data
+build
+*.egg-info
+dist
+tanks_uploader
+*.so
