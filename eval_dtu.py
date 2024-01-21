@@ -62,11 +62,11 @@ def eval(testlist, args):
             results.append(result)
             res_dict[str(scanid)] = result
     mean_res = np.array(results).mean(axis=0).tolist()
-    res_dict["mean"] = mean_res
     if args.save:
         data = list(res_dict.items())
         data.sort(key=lambda x:int(x[0]))
         data = {k:v for k,v in data}
+        data["mean"] = mean_res
         save_dir = Path(args.pred_dir)
         save_path = str(save_dir/"python_eval_result.txt")
         sava_result(save_path, data, model_name=args.model_name) 
