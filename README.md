@@ -1,7 +1,7 @@
 English | [简体中文](README_zh.md)
 # Fast DTU Evaluation Using GPU with Python
 
-This repository implements the utilization of GPUs to expedite the point cloud evaluation process on DTUs, utilizing Python and CUDA.  
+This repository implements the utilization of GPUs to expedite the point cloud evaluation process on DTU, utilizing Python and CUDA.  
 
 ## Problem of MATLAB Evaluation
 When conducting point cloud evaluation on DTU, it is necessary to install MATLAB and use the MATLAB code provided by DTU's official. This process is exceedingly time-consuming, often taking hours or even half a day. To enhance evaluation speed, it is common to employ multiprocessing (`parfor` in MATLAB) for evaluation. This can consume significant CPU resources on linux matchine shared by multiple people, leading to CPU stalls when others are utilizing it.  
