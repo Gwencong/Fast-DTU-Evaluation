@@ -52,8 +52,8 @@ We compare the evaluation results of matlab and python in [DMVSNet](https://gith
 |Method|acc.(mm)|comp.(mm)|overall(mm)|num_workers|time|CPU%|
 |------|--------|---------|-----------|---- |---- |----|
 |TransMVSNet(matlab)|0.3210|0.2890|0.3050|12|1h17m|1200%|
-|TransMVSNet(python)|0.3206|0.2894|0.3050|2|45m|100%|
+|TransMVSNet(python)|0.3206|0.2894|0.3050|2|45m|200%|
 |DMVSNet(matlab)|0.3495|0.2767|0.3131|12|1h17m|1200%|
-|DMVSNet(python)|0.3466|0.2789|0.3128|2|46m  |100%|
+|DMVSNet(python)|0.3466|0.2789|0.3128|2|46m  |200%|
 
 A larger `voxel_factor`(>1.28) may make the evaluation results worse than matlab's evaluation results, but the evaluation speed will be faster and can be used to quickly evaluate whether your innovations improve the final overall results.

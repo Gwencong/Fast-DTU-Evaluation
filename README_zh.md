@@ -50,9 +50,9 @@ bash eval_dtu.sh
 |Method|acc.(mm)|comp.(mm)|overall(mm)|num_workers|time|CPU%|
 |------|--------|---------|-----------|---- |---- |----|
 |TransMVSNet(matlab)|0.3210|0.2890|0.3050|12|1h17m|1200%|
-|TransMVSNet(python)|0.3206|0.2894|0.3050|2|45m|100%|
+|TransMVSNet(python)|0.3206|0.2894|0.3050|2|45m|200%|
 |DMVSNet(matlab)|0.3495|0.2767|0.3131|12|1h17m|1200%|
-|DMVSNet(python)|0.3466|0.2789|0.3128|2|46m  |100%|
+|DMVSNet(python)|0.3466|0.2789|0.3128|2|46m  |200%|
 
 
 更大的`voxel_factor`（>1.28）可能会让评估结果比matlab的评估结果差，但评估速度会更快，所以也可以用来快速评估你的改进是否有效。
