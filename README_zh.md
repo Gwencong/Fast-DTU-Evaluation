@@ -12,7 +12,7 @@
 1. 安装环境依赖
 ```bash
 pip install -r requirements.txt
-cd chamfer3D & python setup.py install # build and install chamfer3D package
+cd chamfer3D && python setup.py install # build and install chamfer3D package
 ```
 2. 准备评估数据
 - 下载GT点云： STL [Point clouds](http://roboimagedata2.compute.dtu.dk/data/MVS/Points.zip) 和 [Sample Set](http://roboimagedata2.compute.dtu.dk/data/MVS/SampleSet.zip) 然后进行解压, 并且把 `Points/Points/stl/stlxxx_total.ply` 文件复制到 `SampleSet/MVS Data/Points/stl` 文件夹。

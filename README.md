@@ -13,7 +13,7 @@ The evaluation process on DTU actually calculates the [chamfer distance](https:/
 1. Install dependency 
 ```bash
 pip install -r requirements.txt
-cd chamfer3D & python setup.py install # build and install chamfer3D package
+cd chamfer3D && python setup.py install # build and install chamfer3D package
 ```
 2. Prepare Dataset
 - Download the STL [Point clouds](http://roboimagedata2.compute.dtu.dk/data/MVS/Points.zip) and [Sample Set](http://roboimagedata2.compute.dtu.dk/data/MVS/SampleSet.zip) and unzip them, then copy the `Points/Points/stl/stlxxx_total.ply` file in to the `SampleSet/MVS Data/Points/stl` folder.
